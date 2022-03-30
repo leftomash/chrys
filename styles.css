@@ -1,0 +1,5 @@
+.gallery {
+    display: inline;
+    white-space: nowrap;
+    overflow-x: auto;
+}
