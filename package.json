@@ -1,9 +1,10 @@
 {
   "name": "chrys",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A website for Chrys!",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,10 +12,13 @@
     "url": "git+https://github.com/leftomash/chrys.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "M#",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/leftomash/chrys/issues"
   },
-  "homepage": "https://github.com/leftomash/chrys#readme"
+  "homepage": "https://github.com/leftomash/chrys#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
